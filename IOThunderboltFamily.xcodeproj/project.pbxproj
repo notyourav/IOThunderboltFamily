@@ -7,13 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E4E6172D253C0ABF00ABCDBE /* IOThunderboltFamily.c in Sources */ = {isa = PBXBuildFile; fileRef = E4E6172C253C0ABF00ABCDBE /* IOThunderboltFamily.c */; };
+		E4E6172D253C0ABF00ABCDBE /* IOThunderboltFamily.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E4E6172C253C0ABF00ABCDBE /* IOThunderboltFamily.cpp */; };
+		E4E61739253C398F00ABCDBE /* IOThunderboltSet.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E4E61737253C398F00ABCDBE /* IOThunderboltSet.cpp */; };
+		E4E6173A253C398F00ABCDBE /* IOThunderboltSet.hpp in Headers */ = {isa = PBXBuildFile; fileRef = E4E61738253C398F00ABCDBE /* IOThunderboltSet.hpp */; };
+		E4E6174B253D150500ABCDBE /* IOThunderboltAbstractMicro.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E4E61749253D150500ABCDBE /* IOThunderboltAbstractMicro.cpp */; };
+		E4E6174C253D150500ABCDBE /* IOThunderboltAbstractMicro.hpp in Headers */ = {isa = PBXBuildFile; fileRef = E4E6174A253D150500ABCDBE /* IOThunderboltAbstractMicro.hpp */; };
+		E4E61753253E4AA000ABCDBE /* IOThunderboltNub.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E4E61751253E4A9F00ABCDBE /* IOThunderboltNub.cpp */; };
+		E4E61754253E4AA000ABCDBE /* IOThunderboltNub.hpp in Headers */ = {isa = PBXBuildFile; fileRef = E4E61752253E4AA000ABCDBE /* IOThunderboltNub.hpp */; };
+		E4E6175B253E6F3300ABCDBE /* IOThunderboltController.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E4E61759253E6F3300ABCDBE /* IOThunderboltController.cpp */; };
+		E4E6175C253E6F3300ABCDBE /* IOThunderboltController.hpp in Headers */ = {isa = PBXBuildFile; fileRef = E4E6175A253E6F3300ABCDBE /* IOThunderboltController.hpp */; };
+		E4E61764253E844E00ABCDBE /* IOThunderboltGlobals.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E4E61762253E844E00ABCDBE /* IOThunderboltGlobals.cpp */; };
+		E4E61765253E844E00ABCDBE /* IOThunderboltGlobals.hpp in Headers */ = {isa = PBXBuildFile; fileRef = E4E61763253E844E00ABCDBE /* IOThunderboltGlobals.hpp */; };
+		E4E6177E253EB91C00ABCDBE /* IOThunderboltTimestamp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E4E6177C253EB91C00ABCDBE /* IOThunderboltTimestamp.cpp */; };
+		E4E6177F253EB91C00ABCDBE /* IOThunderboltTimestamp.hpp in Headers */ = {isa = PBXBuildFile; fileRef = E4E6177D253EB91C00ABCDBE /* IOThunderboltTimestamp.hpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		E4E61729253C0ABF00ABCDBE /* IOThunderboltFamily.kext */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IOThunderboltFamily.kext; sourceTree = BUILT_PRODUCTS_DIR; };
-		E4E6172C253C0ABF00ABCDBE /* IOThunderboltFamily.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = IOThunderboltFamily.c; sourceTree = "<group>"; };
+		E4E6172C253C0ABF00ABCDBE /* IOThunderboltFamily.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = IOThunderboltFamily.cpp; sourceTree = "<group>"; };
 		E4E6172E253C0ABF00ABCDBE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E4E61737253C398F00ABCDBE /* IOThunderboltSet.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = IOThunderboltSet.cpp; sourceTree = "<group>"; };
+		E4E61738253C398F00ABCDBE /* IOThunderboltSet.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = IOThunderboltSet.hpp; sourceTree = "<group>"; };
+		E4E6173E253C45D700ABCDBE /* Kernel.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Kernel.framework; path = System/Library/Frameworks/Kernel.framework; sourceTree = SDKROOT; };
+		E4E61749253D150500ABCDBE /* IOThunderboltAbstractMicro.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = IOThunderboltAbstractMicro.cpp; sourceTree = "<group>"; };
+		E4E6174A253D150500ABCDBE /* IOThunderboltAbstractMicro.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = IOThunderboltAbstractMicro.hpp; sourceTree = "<group>"; };
+		E4E61751253E4A9F00ABCDBE /* IOThunderboltNub.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = IOThunderboltNub.cpp; sourceTree = "<group>"; };
+		E4E61752253E4AA000ABCDBE /* IOThunderboltNub.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = IOThunderboltNub.hpp; sourceTree = "<group>"; };
+		E4E61759253E6F3300ABCDBE /* IOThunderboltController.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = IOThunderboltController.cpp; sourceTree = "<group>"; };
+		E4E6175A253E6F3300ABCDBE /* IOThunderboltController.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = IOThunderboltController.hpp; sourceTree = "<group>"; };
+		E4E61762253E844E00ABCDBE /* IOThunderboltGlobals.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = IOThunderboltGlobals.cpp; sourceTree = "<group>"; };
+		E4E61763253E844E00ABCDBE /* IOThunderboltGlobals.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = IOThunderboltGlobals.hpp; sourceTree = "<group>"; };
+		E4E61779253EB52E00ABCDBE /* debugging.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = debugging.h; sourceTree = "<group>"; };
+		E4E6177C253EB91C00ABCDBE /* IOThunderboltTimestamp.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = IOThunderboltTimestamp.cpp; sourceTree = "<group>"; };
+		E4E6177D253EB91C00ABCDBE /* IOThunderboltTimestamp.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = IOThunderboltTimestamp.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +58,7 @@
 			children = (
 				E4E6172B253C0ABF00ABCDBE /* IOThunderboltFamily */,
 				E4E6172A253C0ABF00ABCDBE /* Products */,
+				E4E6173D253C45D700ABCDBE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -46,10 +73,31 @@
 		E4E6172B253C0ABF00ABCDBE /* IOThunderboltFamily */ = {
 			isa = PBXGroup;
 			children = (
-				E4E6172C253C0ABF00ABCDBE /* IOThunderboltFamily.c */,
+				E4E6172C253C0ABF00ABCDBE /* IOThunderboltFamily.cpp */,
 				E4E6172E253C0ABF00ABCDBE /* Info.plist */,
+				E4E61737253C398F00ABCDBE /* IOThunderboltSet.cpp */,
+				E4E61738253C398F00ABCDBE /* IOThunderboltSet.hpp */,
+				E4E61749253D150500ABCDBE /* IOThunderboltAbstractMicro.cpp */,
+				E4E6174A253D150500ABCDBE /* IOThunderboltAbstractMicro.hpp */,
+				E4E61751253E4A9F00ABCDBE /* IOThunderboltNub.cpp */,
+				E4E61752253E4AA000ABCDBE /* IOThunderboltNub.hpp */,
+				E4E61759253E6F3300ABCDBE /* IOThunderboltController.cpp */,
+				E4E6175A253E6F3300ABCDBE /* IOThunderboltController.hpp */,
+				E4E61762253E844E00ABCDBE /* IOThunderboltGlobals.cpp */,
+				E4E61763253E844E00ABCDBE /* IOThunderboltGlobals.hpp */,
+				E4E61779253EB52E00ABCDBE /* debugging.h */,
+				E4E6177C253EB91C00ABCDBE /* IOThunderboltTimestamp.cpp */,
+				E4E6177D253EB91C00ABCDBE /* IOThunderboltTimestamp.hpp */,
 			);
 			path = IOThunderboltFamily;
+			sourceTree = "<group>";
+		};
+		E4E6173D253C45D700ABCDBE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E4E6173E253C45D700ABCDBE /* Kernel.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -59,6 +107,12 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E4E6175C253E6F3300ABCDBE /* IOThunderboltController.hpp in Headers */,
+				E4E6177F253EB91C00ABCDBE /* IOThunderboltTimestamp.hpp in Headers */,
+				E4E61754253E4AA000ABCDBE /* IOThunderboltNub.hpp in Headers */,
+				E4E6173A253C398F00ABCDBE /* IOThunderboltSet.hpp in Headers */,
+				E4E61765253E844E00ABCDBE /* IOThunderboltGlobals.hpp in Headers */,
+				E4E6174C253D150500ABCDBE /* IOThunderboltAbstractMicro.hpp in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -129,7 +183,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E4E6172D253C0ABF00ABCDBE /* IOThunderboltFamily.c in Sources */,
+				E4E61764253E844E00ABCDBE /* IOThunderboltGlobals.cpp in Sources */,
+				E4E6177E253EB91C00ABCDBE /* IOThunderboltTimestamp.cpp in Sources */,
+				E4E6174B253D150500ABCDBE /* IOThunderboltAbstractMicro.cpp in Sources */,
+				E4E61753253E4AA000ABCDBE /* IOThunderboltNub.cpp in Sources */,
+				E4E61739253C398F00ABCDBE /* IOThunderboltSet.cpp in Sources */,
+				E4E6175B253E6F3300ABCDBE /* IOThunderboltController.cpp in Sources */,
+				E4E6172D253C0ABF00ABCDBE /* IOThunderboltFamily.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -191,6 +251,10 @@
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = (
+					"$(OTHER_CFLAGS)",
+					"-no-cpp-precomp",
+				);
 				SDKROOT = macosx;
 			};
 			name = Debug;
@@ -243,6 +307,10 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.15;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
+				OTHER_CPLUSPLUSFLAGS = (
+					"$(OTHER_CFLAGS)",
+					"-no-cpp-precomp",
+				);
 				SDKROOT = macosx;
 			};
 			name = Release;
@@ -251,8 +319,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = NO;
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = IOThunderboltFamily/Info.plist;
+				INSTALL_PATH = "$(DEFAULT_KEXT_INSTALL_PATH)/_Decompiled";
 				MACOSX_DEPLOYMENT_TARGET = 10.15;
 				MODULE_NAME = com.apple.IOThunderboltFamily;
 				MODULE_START = IOThunderboltFamily_start;
@@ -269,8 +339,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = NO;
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = IOThunderboltFamily/Info.plist;
+				INSTALL_PATH = "$(DEFAULT_KEXT_INSTALL_PATH)/_Decompiled";
 				MACOSX_DEPLOYMENT_TARGET = 10.15;
 				MODULE_NAME = com.apple.IOThunderboltFamily;
 				MODULE_START = IOThunderboltFamily_start;
